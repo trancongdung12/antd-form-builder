@@ -1,13 +1,11 @@
 /* eslint react/no-multi-comp: 0 */
-import React from 'react'
-import PropTypes from 'prop-types'
-import isArray from 'lodash/isArray'
-import castArray from 'lodash/castArray'
+import { Col, Form, Row } from 'antd'
 import find from 'lodash/find'
-import has from 'lodash/has'
-import { Col, Row, Form } from 'antd'
-import FormBuilderField from './FormBuilderField'
+import isArray from 'lodash/isArray'
+import PropTypes from 'prop-types'
+import React from 'react'
 import './FormBuilder.css'
+import FormBuilderField from './FormBuilderField'
 
 const isV4 = !!Form.useForm
 
